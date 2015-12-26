@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Montage
+        psr4_prefix: Montage
+        src_path: app
