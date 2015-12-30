@@ -11,27 +11,11 @@
 |
 */
 
-/*Route::get('/', 'WelcomeController@index');
+Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
-]);*/
-
-//Vista para logearse
-Route::get('/', 'AccesoController@index');
-
-
-//Route::get('acceso', 'HomeController@index');
-Route::get('home', 'HomeController@index');
-Route::get('compras', 'HomeController@compras');
-Route::post('compra', 'HomeController@altaCompras');
-
-//Grupo de vistas para registrados
-/*Route::group(['middleware' => 'auth'], function(){
-	Route::get('/home', 'HomeController@index');
-});*/
-
-
+]);

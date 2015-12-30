@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: Montage
-        psr4_prefix: Montage
+        namespace: App
+        psr4_prefix: App
         src_path: app

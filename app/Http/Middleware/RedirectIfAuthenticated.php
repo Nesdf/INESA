@@ -1,4 +1,4 @@
-<?php namespace Montage\Http\Middleware;
+<?php namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
@@ -35,7 +35,7 @@ class RedirectIfAuthenticated {
 	{
 		if ($this->auth->check())
 		{
-			return new RedirectResponse(url('auth/login'));
+			return new RedirectResponse(url('/home'));
 		}
 
 		return $next($request);

@@ -58,7 +58,7 @@ a {
 }
 .acordion li.open .link {
 	color: white;
-	background-color: #7A003C;
+	background-color: #FFA040;
 }
 .acordion li.open i {
 	color: white;
@@ -71,7 +71,7 @@ a {
 }
 .submenu {
 	display: none;
-	background-color: #1B4E6F;
+	background-color: #AAA;
 	font-size: 14px;
 }
 .submenu li {
@@ -89,8 +89,8 @@ a {
 	transition: all 0.4s easy;
 }
 .submenu a:hover {
-	background-color: #547A93;
-	color: white;
+	background-color: #CCC;
+	color: 000;
 }
 .active-submenu {
 	background-color: #BD809E;

@@ -1,4 +1,4 @@
-<?php namespace Montage\Http\Controllers;
+<?php namespace App\Http\Controllers;
 
 class HomeController extends Controller {
 
@@ -20,7 +20,7 @@ class HomeController extends Controller {
 	 */
 	public function __construct()
 	{
-		//$this->middleware('auth');
+		$this->middleware('auth');
 	}
 
 	/**
@@ -30,19 +30,7 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('backend.inicio.home');
+		return view('home');
 	}
-
-	public function compras()
-	{
-		return view('backend.inicio.compras');
-	}
-
-	public function altaCompras()
-	{
-		return view('backend.inicio.altaCompras');
-	}
-
-
 
 }
